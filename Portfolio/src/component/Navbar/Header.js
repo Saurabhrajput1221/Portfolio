@@ -20,7 +20,7 @@ const Header = () => {
             <span className="my-name">Saurabh</span>
           </div>
 
-          <div className="navlink">
+          <div className="navlink" >
             <ul
               className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"}
               onClick={() => setMobile(false)}
