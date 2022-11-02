@@ -2,7 +2,7 @@ import React from "react";
 import "./hero.css";
 import hero from "../pic/hero1.png";
 import banner from "../pic/banner.png";
-// import Typical from 'react-typical';
+import Typical from 'react-typical';
 
 const Hero = () => {
   return (
@@ -16,9 +16,9 @@ const Hero = () => {
             </h1>
             <h2>
               a
-              {/* <span>
-               <Typical steps={[' Front End Developer', 3000, ' React JS Developer', 3000, ' MERN Developer', 3000, ' Back End Developer', 3000, ' Full Stack Developer']} loop={Infinity} wrapper="span" /> 
-               </span> */}
+              <span>
+               <Typical steps={[' Java Developer', 3000, ' React JS Developer', 3000,' Back End Developer', 3000, ' Full Stack Developer']} loop={Infinity} wrapper="span" /> 
+               </span>
             </h2>
 
             <p>
@@ -42,8 +42,9 @@ const Hero = () => {
                     </a>
                   </button> */}
                   <button className="btn_shadow">
-                    <a href="https://www.instagram.com/hello/" target="_blank">
+                    <a href="https://www.instagram.com/saurabhrajput2122/" target="_blank">
                       <i className="fab fa-instagram"></i>
+                                            Inst
                     </a>
                   </button>
                   <button className="btn_shadow">
@@ -52,6 +53,7 @@ const Hero = () => {
                       target="_blank"
                     >
                       <i className="fab fa-youtube"></i>
+                      YT
                     </a>
                   </button>
                   <button className="btn_shadow">
@@ -60,6 +62,7 @@ const Hero = () => {
                       target="_blank"
                     >
                       <i className="fab fa-linkedin-in"></i>
+                      Lin
                     </a>
                   </button>
                   <button className="btn_shadow">
@@ -68,6 +71,7 @@ const Hero = () => {
                       target="_blank"
                     >
                       <i className="fab fa-github"></i>
+                      Git
                     </a>
                   </button>
                 </div>

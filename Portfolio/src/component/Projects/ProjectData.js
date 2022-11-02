@@ -1,103 +1,67 @@
-import flipkart from '../pic/flipkart.png'
-import shayra from '../pic/shayra.png'
-import doubtnut from '../pic/doubtnut.png'
-import shopdo from '../pic/shopdo.png'
-import car from '../pic/car.png'
-import resturent from '../pic/resturent.png'
-import quiz from '../pic/quiz.png'
-import typing from '../pic/typing.png'
-import atg from '../pic/atg.png'
+import HotelManagement from "../pic/HotelManagement.png";
+import SnakeGame from "../pic/SnakeGame.png";
+import MeditationApp from "../pic/MeditationApp.png";
+import Booklist from "../pic/Booklist.png";
+import Bubble from "../pic/Bubble.PNG";
+import BirthDay from "../pic/BirthDay.png";
+
 const ProjectData = [
-    {
-      id: 1,
-      category: "MERN Project",
-      totalLike: "572",
-      title: "Flipkart Clone Website",
-      image: flipkart,
-      desc: 'A Flipkart clone website was designed and created by me. I tried to give all basic functionality (including Header, Cart, Login, etc.). I used React, Material UI, NodeJS, Express, MongoDB, and Mongoose tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/Flipkart-clone',
-      deployLink: 'https://mernflipkartclone.herokuapp.com/'
-    },
-    {
-      id: 2,
-      category: "NODE JS Project",
-      totalLike: "791",
-      title: "Shayra Academy Website",
-      image: shayra,
-      desc: 'An institute website for knowing their courses, services, and fees. All websites were designed and created by me. I used HTML, CSS, BootStrap, JavaScript, NodeJS, Express, MongoDB, and Mongoose tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/ShayraAcademy',
-      deployLink: 'https://shayra-academy-website.herokuapp.com/'
-    },
-    {
-      id: 3,
-      category: "React Project",
-      totalLike: "273",
-      title: "DoubtNut App Blog Website",
-      image: doubtnut,
-      desc: 'A blog website for knowing services and How to use Doubtnut App. All websites were designed and created by me. I used HTML, CSS, BootStrap, and React tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/Doubtnut-Blog',
-      deployLink: 'https://doubtnut-blog.netlify.app/'
-    },
-    {
-      id: 4,
-      category: "E-Commerce Project",
-      totalLike: "325",
-      title: "ShopDo E-Commerce Website",
-      image: shopdo,
-      desc: 'An E-Commerce web application to shop for buy clothes. It is a Multipage website designed and created by me. I used HTML, CSS, and JavaScript tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/shopdo',
-      deployLink: 'https://surya4554.github.io/shopdo/'
-    },
-    {
-      id: 5,
-      category: "MultiPage Website",
-      totalLike: "892",
-      title: "Car Care World Website",
-      image: car,
-      desc: 'A static web application to know about an automobile service center and its facilities. These are multipage websites designed and created by me. I used HTML, CSS, and JavaScript tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/carcareworld',
-      deployLink: 'https://surya4554.github.io/carcareworld/'
-    },
-    {
-      id: 6,
-      category: "React Mini Project",
-      totalLike: "152",
-      title: "Resturent Items Webpage",
-      image: resturent,
-      desc: 'It is a simple mini website to know what types of category food provide by a restaurant. You can filter your item category-wise. I used HTML, CSS, and React tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/Resturent',
-      deployLink: 'https://resturent-item.netlify.app/'
-    },
-    {
-      id: 7,
-      category: "React Mini Project",
-      totalLike: "71",
-      title: "All Things Good Page",
-      image: atg,
-      desc: 'This application is to suggest products by video. In this application, we provide a video of how types of items you took and after then we provide you that product items link. I used HTML, CSS, and React tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/atg',
-      deployLink: 'https://surya4554.github.io/atg/'
-    },
-    {
-      id: 8,
-      category: "JavaScript Mini Project",
-      totalLike: "219",
-      title: "Typing Speed Test",
-      image: typing,
-      desc: 'It is a simple Typing Speed test mini website page where you can give your typing test. I used HTML, CSS, and JavaScript tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/Assignment/tree/master/TypingSpeed',
-      deployLink: 'https://surya4554.github.io/Assignment/TypingSpeed/index.html'
-    },
-    {
-      id: 9,
-      category: "JavaScript Mini Project",
-      totalLike: "176",
-      title: "Quiz App",
-      image: quiz,
-      desc: 'It is a simple Quiz test App mini website page where you can give your test. and know your score. I used HTML, CSS, and JavaScript tech stack to make this website.',
-      repoLink: 'https://github.com/Surya4554/Assignment/tree/master/quizApp',
-      deployLink: 'https://surya4554.github.io/Assignment/quizApp/quiz.html'
-    }
-    
-  ]
-  export default ProjectData;
+  {
+    id: 1,
+    category: "Java and Sql Project",
+    title: "Hotel Management System",
+    image: HotelManagement,
+    desc: "Build a Hotel management system using Java , SQL and Swing. I Store my all data in SQL. I have created Conn class to Execute query from SQL. I have added there are multiple functionalities like Add Room , Add Customer ,Search Room , Customer Information and many more. In New customer Form you will be able to see ID , ID Number, Name , Gender , Room Number and etc Using add button able add Data.",
+    repoLink: "https://github.com/Saurabhrajput1221/Hotel-Management-System",
+    deployLink:
+      "https://github.com/Saurabhrajput1221/Hotel-Management-System/blob/master/README.md",
+  },
+  {
+    id: 2,
+    category: "Java Project",
+    title: "Sanke Game",
+    image: SnakeGame,
+    desc: "In this game the player controls a snake. The objective is to eat as many Enemy as possible(length and Score will be increase). Each time the snake eats an Enemy its length will increases and Score will update on right Corner . The snake must pass through the walls but avoid its own body if snake touch its own body you will be loose game . Using SPACE button you can Restart game.",
+    repoLink:
+      "https://github.com/Saurabhrajput1221/JavaProject/tree/master/SnakeGame",
+    deployLink:
+      "https://github.com/Saurabhrajput1221/JavaProject/blob/master/SnakeGame/SnakeGameSS.png",
+  },
+  {
+    id: 3,
+    category: "Html, Css, JavaScript Project",
+    title: "Meditation App",
+    image: MeditationApp,
+    desc: "I have made simple Meditaion website using Html and css and JavaScript. You can also check using below buttons.",
+    repoLink: "https://github.com/Saurabhrajput1221/Saurabhrajput1221/tree/main/Project/MeditationApp",
+    deployLink: "https://saurabhrajput1221.github.io/Saurabhrajput1221/Project/MeditationApp/MeditationApp.html",
+  },
+  {
+    id: 4,
+    category: "Html, Css, JavaScript Project",
+    title: "MyBookList",
+    image: Booklist,
+    desc: "I have made simple MyBookList website using Html and css and JavaScript. You can also check using below buttons.",
+    repoLink: "https://github.com/Saurabhrajput1221/Saurabhrajput1221/tree/main/Project/BooklistApp",
+    deployLink: "https://saurabhrajput1221.github.io/Saurabhrajput1221/Project/BooklistApp/BooklistApp.html",
+  },
+  {
+    id: 5,
+    category: "Game Website",
+    title: "Bubble Game",
+    image: Bubble,
+    desc: "I have made BubbleGame website using Html, css and JavaScript you can check using below buttons",
+    repoLink: "https://github.com/Saurabhrajput1221/Saurabhrajput1221/tree/main/Ballon%20Game",
+    deployLink: "https://saurabhrajput1221.github.io/Saurabhrajput1221/Ballon%20Game/PrBubbleGame.html",
+  },
+  {
+    id: 6,
+    category: "React Mini Project",
+    title: "Birthday Remainder",
+    image: BirthDay,
+    desc: "I have made simple Birthday Remainder website using React. You can check using below buttons.",
+    repoLink: "https://github.com/Saurabhrajput1221/saurabh-React/tree/master/BirthDay",
+    deployLink: "https://rajputsaurabh.netlify.app/",
+  }
+];
+export default ProjectData;

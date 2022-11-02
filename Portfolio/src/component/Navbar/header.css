@@ -13,6 +13,7 @@ header .container {
   color: white;
   font-weight: bolder;
   font-size: 30px;
+ /* padding: 5px; */
 }
 header ul li {
   margin-left: 40px;
