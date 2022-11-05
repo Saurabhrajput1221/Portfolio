@@ -1,1 +1,0 @@
-html 85, css 82, bootstrap 80 , javascript 75, react 65,  java 55 

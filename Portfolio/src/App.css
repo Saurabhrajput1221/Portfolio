@@ -9,7 +9,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ecf0f3;
+  background-color: rgb(9, 13, 44);
 }
 .container {
   max-width: 95%;
